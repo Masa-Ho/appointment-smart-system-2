@@ -9,6 +9,7 @@ Appointment Smart System
 المشروع مطوّر على ثلاث مراحل (Core Backend – Security – Advanced Features) ويحقق جميع المتطلبات الأكاديمية المطلوبة.
 
 مراحل تنفيذ المشروع:
+
 المرحلة الأولى: Core Backend
 
 إنشاء مشروع Spring Boot
