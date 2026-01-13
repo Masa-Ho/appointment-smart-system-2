@@ -97,7 +97,7 @@ Maven
 
 Postman لاختبار الـ APIs
 
-الإعدادات
+الإعدادات:
 
 المنفذ الافتراضي: 8443
 
@@ -105,7 +105,7 @@ Postman لاختبار الـ APIs
 
 SSL مفعّل
 
-تشغيل التطبيق
+تشغيل التطبيق:
 mvn spring-boot:run
 
 
@@ -126,7 +126,7 @@ https://localhost:8443
 Authorization: Bearer <JWT_TOKEN>
 
 واجهات الـ API (أمثلة):
-المصادقة
+المصادقة:
 
 Register
 
@@ -143,9 +143,9 @@ Login
 
 POST https://localhost:8443/api/auth/login
 
-الخدمات
+الخدمات:
 
-إضافة خدمة
+إضافة خدمة:
 
 POST https://localhost:8443/api/services
 
@@ -155,9 +155,9 @@ POST https://localhost:8443/api/services
   "price": 100
 }
 
-المواعيد
+المواعيد:
 
-إضافة موعد
+إضافة موعد:
 
 POST https://localhost:8443/api/appointments
 
@@ -170,7 +170,7 @@ POST https://localhost:8443/api/appointments
 }
 
 
-تغيير حالة موعد
+تغيير حالة موعد:
 
 PUT https://localhost:8443/api/appointments/{id}/status
 
@@ -178,9 +178,9 @@ PUT https://localhost:8443/api/appointments/{id}/status
   "status": "CONFIRMED"
 }
 
-المستخدمين
+المستخدمين:
 
-إضافة مستخدم
+إضافة مستخدم:
 
 POST https://localhost:8443/api/users
 
@@ -190,6 +190,11 @@ POST https://localhost:8443/api/users
   "password": "12345678",
   "role": "STAFF"
 }
+تقسيم العمل بين أعضاء الفريق:
+
+تم تنفيذ هذا المشروع بشكل جماعي.
+
+
 
 ملاحظات ختامية:
 
