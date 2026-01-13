@@ -16,9 +16,8 @@ Appointment Smart System
 
 تصميم قاعدة البيانات (Users – Services – Appointments)
 
-تنفيذ RESTful APIs
-
-CRUD كامل للمستخدمين والخدمات والمواعيد
+تنفيذ RESTful APIs  كامل للمستخدمين والخدمات والمواعيد CRUD
+ 
 
 تطبيق منطق الأعمال:
 
